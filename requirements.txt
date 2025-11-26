@@ -8,3 +8,4 @@ keras==2.10.0
 keras-tuner==1.4.7
 jupyter
 notebook
+panama
