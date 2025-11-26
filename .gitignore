@@ -1,0 +1,22 @@
+# Ignorar carpetas de Python y entornos virtuales
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+
+# Ignorar archivos de datos grandes y modelos entrenados
+*.pkl
+*.npz
+*.h5
+*.hdf5
+*.csv
+# Excepción: Mantener el catálogo de detectores si es pequeño y útil
+!detector_catalog.csv
+
+# Ignorar la carpeta de artefactos generados
+pipeline_artifacts/
+processed_all_data.pkl
+
+# Ignorar logs
+*.log
